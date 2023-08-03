@@ -1085,6 +1085,7 @@ MonoBehaviour:
   LifeCounter: {fileID: 50656019}
   gameOverGroup: {fileID: 1485088347}
   ramenimg: {fileID: 723319146}
+  cut: {fileID: 1480119776}
 --- !u!4 &1727257879
 Transform:
   m_ObjectHideFlags: 0
