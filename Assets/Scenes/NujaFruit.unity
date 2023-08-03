@@ -1078,7 +1078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f1db17da08f20340916b26208ca234f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberOfLives: 2
+  numberOfLives: 3
   fruitSpawner: {fileID: 1966036038}
   bombSpawner: {fileID: 730171785}
   ScoreText: {fileID: 44254426}
