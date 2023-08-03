@@ -8,6 +8,7 @@ public class FadePanelController : MonoBehaviour {
 	public Animator gameInfoAnim;
 
 	public void OK(){
+        Debug.Log("OK pressed");
 		if (panelAnim != null && gameInfoAnim != null)
 		{
 			panelAnim.SetBool("Out", true);
