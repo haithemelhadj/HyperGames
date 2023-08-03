@@ -514,7 +514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114082264271279206, guid: 8a9acbc15496129459f2bfe878e7aff2, type: 3}
       propertyPath: level
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114082264271279206, guid: 8a9acbc15496129459f2bfe878e7aff2, type: 3}
       propertyPath: m_Enabled
@@ -544,6 +544,10 @@ PrefabInstance:
       propertyPath: levelGoals.Array.data[2].goalSprite
       value: 
       objectReference: {fileID: 21300004, guid: 988a3fce630a14b63a3e5e82e1f1226a, type: 3}
+    - target: {fileID: 114134789837603690, guid: 8a9acbc15496129459f2bfe878e7aff2, type: 3}
+      propertyPath: levelGoals.Array.data[0].numberNeeded
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 114571353235468436, guid: 8a9acbc15496129459f2bfe878e7aff2, type: 3}
       propertyPath: m_Enabled
       value: 1
