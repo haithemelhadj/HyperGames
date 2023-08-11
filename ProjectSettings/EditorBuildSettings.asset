@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HomeMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/NujaFruit.unity
+    guid: f09f0cac8e158954ebeb5397972c8fcc
   m_configObjects: {}

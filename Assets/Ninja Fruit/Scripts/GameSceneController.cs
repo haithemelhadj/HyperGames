@@ -76,4 +76,10 @@ public class GameSceneController : MonoBehaviour
             bombSpawner.gameObject.SetActive(false);
         }
     }
+    public void ClickToHome()
+    {
+        {
+            SceneManager.LoadScene("HomeMenu");
+        }
+    }
 }
