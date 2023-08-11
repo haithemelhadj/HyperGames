@@ -20,17 +20,6 @@ public bool harmful;
                 OnDestroyed(harmful);
             }
             Destroy(gameObject);
-            if (!harmful)
-            {
-                
-              //?
-               
-            }
-            else
-            {
-                //?
-               
-            }
         }
     }
     
