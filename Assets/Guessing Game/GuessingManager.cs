@@ -19,21 +19,35 @@ public class GuessingManager : MonoBehaviour
 
     private void Awake()
     {
-        allCards = new GameObject[Length, width];
+        if (width % 2 != 0) width++;
+        allCards = new GameObject[this.Length, this.width];
         for (int i = 0; i < Length; i++)
         {
-            for (int j = 0; j < width / 2; j++) 
+            for (int j = 0; j < width/2 ; j++) 
             {
                 if (allCards[i, j] == null)
                 {
                     GameObject tempCard = cardsList[Random.Range(0, cardsList.Length)];
                     allCards[i, j] = tempCard;
-                    allCards[Length - i, width - j] = tempCard;
+                    allCards[Length - 1 - i, width - 1 - j] = tempCard;
+                    
                     
                 }
             }
         }
-        ShuffleArray(allCards);
+        //ShuffleArray(allCards);
+        for (int i = 0; i < this.Length; i++)
+        {
+            for (int j = 0; j < this.width; j++)
+            {
+                int x = Random.Range(0, this.Length);
+                int y = Random.Range(0, this.width);
+                //permutation
+                GameObject tempObj = allCards[x, y];
+                allCards[x, y] = allCards[i, j];
+                allCards[i, j] = tempObj;
+            }
+        }
     }
 
     void ShuffleArray(GameObject[,] array)
@@ -69,6 +83,7 @@ public class GuessingManager : MonoBehaviour
                 backgroundTile.name = "( " + i + ", " + j + " )";
             }
         }
+        Camera.main.transform.position = new Vector3((float)Length/2-0.5f,(float)width/2-0.5f,-10f);
 
 
     }

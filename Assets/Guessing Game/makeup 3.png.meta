@@ -119,10 +119,10 @@ TextureImporter:
       name: makeup 3_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 432
-        height: 578
+        x: 46
+        y: 322
+        width: 44
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,6 +132,90 @@ TextureImporter:
       bones: []
       spriteID: 7735d762e7ac1294b8af4290bd02870a
       internalID: 1273891817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeup 3_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 325
+        width: 28
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93193db1494a9fe458095f246ce36716
+      internalID: 1785269790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeup 3_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 324
+        width: 58
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c406aba4da2cf4da2a83bd03e6ceaf
+      internalID: -735835864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeup 3_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 321
+        width: 25
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce759f2b554e4f409cbe8d373acbb3f
+      internalID: 1161666277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeup 3_4
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 103
+        width: 102
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403f61c6000a6ca4daa5a3066abfa2d2
+      internalID: -1672437933
       vertices: []
       indices: 
       edges: []
@@ -147,7 +231,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      makeup 3_4: -1672437933
+      makeup 3_2: -735835864
+      makeup 3_1: 1785269790
       makeup 3_0: 1273891817
+      makeup 3_3: 1161666277
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
