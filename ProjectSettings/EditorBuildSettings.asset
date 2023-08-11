@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NujaFruit.unity
     guid: f09f0cac8e158954ebeb5397972c8fcc
+  - enabled: 1
+    path: Assets/Scenes/CofeeCrash.unity
+    guid: 8fd2650b8d7775c429114deaa6d34eca
+  - enabled: 1
+    path: Assets/Scenes/ExtraScene.unity
+    guid: 07bcd4105ebdf02429b04b722f546ccd
+  - enabled: 1
+    path: Assets/Scenes/GuessThe Dress.unity
+    guid: b3c67eda5bfeef64da8640fe80ab9c02
+  - enabled: 1
+    path: Assets/Scenes/Stack&Consume.unity
+    guid: 07c70f041f837d34aac4e1c9a93dc48e
   m_configObjects: {}
