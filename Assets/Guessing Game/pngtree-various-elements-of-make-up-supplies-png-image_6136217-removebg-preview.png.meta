@@ -1,0 +1,530 @@
+fileFormatVersion: 2
+guid: f5c7412c4f490f74793978b0b6daa2ec
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 259
+        width: 32
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26db95a63e86dd84facb1268690256e2
+      internalID: -723517708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 262
+        width: 94
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7834abe9687f62249a0a0614ba6c599b
+      internalID: -157058181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 255
+        width: 72
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56fe8b05514e6b4d96e593d00c227b8
+      internalID: -1118148008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 254
+        width: 65
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee513d704d0e6ce48aabedae1caef3ae
+      internalID: 1666709003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 154
+        width: 63
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70adb81e277d46142acd8eac0f6404a5
+      internalID: 1087591995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 167
+        width: 33
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1eb71da864957a49b43b48bebe99da9
+      internalID: -1459103247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 167
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac33a85adc7d10f47bde3423c9ba5354
+      internalID: -1397182600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 165
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f324d759b3311534ea555f8ad089f62b
+      internalID: -742246525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 163
+        width: 26
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114996e74c34aba4ca03243af690ad0b
+      internalID: -1063186886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 163
+        width: 27
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c262d46d5dc5b458801e1ab79e6ad6
+      internalID: 816303211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 83
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc1aeab1f95ca24799606e1fe1a820d
+      internalID: -1058563926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 80
+        width: 79
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4734ce58674234ab76e6341e148443
+      internalID: -557931214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 77
+        width: 125
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed9605c7e8a92748acc2c6b8581042a
+      internalID: 1793528044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 7
+        width: 35
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb7d413fc3b8344bb491a992bbd1221
+      internalID: 1094212233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 63
+        width: 34
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f839278195f454fbc1872eb817cfe9
+      internalID: -1345525824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 13
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c68a91c07c9fc479d987978af6d85e
+      internalID: 1414109983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 16
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc757d9765626d240ad851a25bc2976e
+      internalID: -1176716017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 9
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b600733514a56f04aa3b07ae471e579e
+      internalID: -69913032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 84e92511f66009243bc73d691eb9936f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_2: -1118148008
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_14: -1345525824
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_17: -69913032
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_1: -157058181
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_15: 1414109983
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_3: 1666709003
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_13: 1094212233
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_4: 1087591995
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_6: -1397182600
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_0: -723517708
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_7: -742246525
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_12: 1793528044
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_8: -1063186886
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_9: 816303211
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_11: -557931214
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_5: -1459103247
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_10: -1058563926
+      pngtree-various-elements-of-make-up-supplies-png-image_6136217-removebg-preview_16: -1176716017
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

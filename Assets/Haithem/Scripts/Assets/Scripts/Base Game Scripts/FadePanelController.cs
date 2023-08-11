@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FadePanelController : MonoBehaviour {
 
@@ -17,6 +18,15 @@ public class FadePanelController : MonoBehaviour {
 		}
 	}
 
+    public void Replay()
+    {
+        SceneManager.LoadScene("CofeeCrash");
+
+    }
+    public void GoHome()
+    {
+        SceneManager.LoadScene("HomeMenu");
+    }
     public void GameOver()
     {
         panelAnim.SetBool("Out", false);

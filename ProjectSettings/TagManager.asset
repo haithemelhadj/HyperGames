@@ -9,6 +9,18 @@ TagManager:
   - Doughnut
   - Direct
   - CofeeType
+  - Board
+  - Chocolate
+  - Lock
+  - Dark Green Dot
+  - Concrete
+  - Red Dot
+  - Indigo Dot
+  - Salmon Dot
+  - Breakable
+  - Orange Dot
+  - Cut
+  - color
   layers:
   - Default
   - TransparentFX

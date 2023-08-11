@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 477841ba72c8e4249a03ecc1b9286b3c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 356
+        width: 124
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1903e51bb7b0e245ae1c6c9aab26b88
+      internalID: 594947738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 354
+        width: 49
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0a840ce433b0a4691a9182b5b3fb9b
+      internalID: 1559470939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 354
+        width: 26
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bec01ba858df0d4598dccbafffc4289
+      internalID: 1037424902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 355
+        width: 70
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9543698d8e31c874aa372662cb4e5d39
+      internalID: 1261048315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 430
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8097f7c4b6091449a82ad0fa73c664d
+      internalID: -1280477843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 189
+        width: 39
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee29c47cf26f5ed4db57e0c87a992408
+      internalID: -886895777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 188
+        width: 39
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296d06a5d1903c14ba8d4958139aff62
+      internalID: 1113869201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 191
+        width: 46
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713fbd7e196856748b71aaabc1944508
+      internalID: 551564766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 191
+        width: 43
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5ebf1d32a92ca478b5af72a96596b7
+      internalID: 1208085680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 204
+        width: 149
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0f0af1af69a1c4f8e42abd2a695c0a
+      internalID: 1927794922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 95
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff278d06ce9359a4a95bf4a744110de8
+      internalID: 1273543089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 20
+        width: 44
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a5ed97e88c86045932fd00d3ad3338
+      internalID: -519615283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 25
+        width: 122
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6378397e79e25479295d51d130289a
+      internalID: 1124762748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b109740debde4334a89ab8f192a68460
+      internalID: -624322798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d73de3b8bc1f00b408187bddaf6f920e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_2: 1037424902
+      pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_12: 1124762748
+      pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_11: -519615283
+      pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_6: 1113869201
+      pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_13: -624322798
+      pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_3: 1261048315
+      pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_0: 594947738
+      pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_4: -1280477843
+      pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_10: 1273543089
+      pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_8: 1208085680
+      pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_7: 551564766
+      pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_9: 1927794922
+      pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_1: 1559470939
+      pngtree-icon-beauty-makeup-cosmetic-png-image_2860003-removebg-preview_5: -886895777
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
