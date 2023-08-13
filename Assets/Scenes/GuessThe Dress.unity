@@ -300,8 +300,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e6a4ffecc9224ea721baa72f1741b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Length: 4
-  width: 3
+  Length: 6
+  width: 4
   cardsList:
   - {fileID: 7009242951413237720, guid: e97b7b81039f0394b8983f02ecea7a59, type: 3}
   - {fileID: 540853168931572216, guid: ce653f4232bbab44f82ac82071e353cf, type: 3}
