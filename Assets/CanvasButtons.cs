@@ -19,15 +19,15 @@ public class CanvasButtons : MonoBehaviour
     public void cofeeGame()
     {
         //go to scene with lable "cofeeGAme"
-        SceneManager.LoadScene("CofeeCrash");
+        SceneManager.LoadScene("coffeelevels");
     }
     public void NinjaFruit()
     {
-        SceneManager.LoadScene("NujaFruit");
+        SceneManager.LoadScene("foodlevels");
     }
     public void beautyGame()
     {
-        SceneManager.LoadScene("GuessThe Dress");
+        SceneManager.LoadScene("coifflevels");
     }
     public void Spinwheel()
     {

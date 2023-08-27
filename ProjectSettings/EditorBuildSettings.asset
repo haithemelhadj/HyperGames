@@ -23,4 +23,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stack&Consume.unity
     guid: 07c70f041f837d34aac4e1c9a93dc48e
+  - enabled: 1
+    path: Assets/Scenes/Foodlevels.unity
+    guid: 775c682acdc15ce4b8ca232b034ccf8f
+  - enabled: 1
+    path: Assets/Scenes/coffeelevels.unity
+    guid: 34d33de36e4539c47b75033dc55c116a
+  - enabled: 1
+    path: Assets/Scenes/coifflevels.unity
+    guid: 16836ac1179d7074d9159582c9a8dfcb
+  - enabled: 1
+    path: Assets/Scenes/Choosegift.unity
+    guid: c4812c016e9f9c04a9e8abf9dc91ebf8
   m_configObjects: {}
