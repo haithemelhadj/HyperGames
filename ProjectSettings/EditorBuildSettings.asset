@@ -36,9 +36,15 @@ EditorBuildSettings:
     path: Assets/Scenes/coffeelevels.unity
     guid: 71b63863f27702144bdc562ed32814b1
   - enabled: 1
-    path: Assets/Scenes/Coifflevels.unity
+    path: Assets/Scenes/coifflevels.unity
     guid: b6319730998d2b34185e9154e05a63b6
   - enabled: 1
-    path: Assets/Scenes/foodlevels.unity
+    path: Assets/Scenes/Foodlevels.unity
     guid: 4626ee4de7ed6394eacbb567c634136a
+  - enabled: 1
+    path: Assets/Scenes/Notifications.unity
+    guid: efa3e2e8f66fac54cb35f93719ff176d
+  - enabled: 1
+    path: Assets/Scenes/Profile.unity
+    guid: adcc0cbbec0edb74eaea74e30efda450
   m_configObjects: {}
