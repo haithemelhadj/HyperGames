@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Stack&Consume.unity
     guid: 07c70f041f837d34aac4e1c9a93dc48e
   - enabled: 1
-    path: Assets/Scenes/Foodlevels.unity
+    path: Assets/Scenes/LeaderBoard.unity
     guid: 775c682acdc15ce4b8ca232b034ccf8f
   - enabled: 1
     path: Assets/Scenes/coffeelevels.unity
