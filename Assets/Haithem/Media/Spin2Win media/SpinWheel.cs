@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SpinWheel : MonoBehaviour
 {
@@ -11,11 +12,13 @@ public class SpinWheel : MonoBehaviour
     public string[] colors;
     public int x = -1;
     public float rotation;
+    public Text numberOfSpins;
     
     // Start is called before the first frame update
     void Start()
     {
         //numberOfColors = colors.Length;
+        numberOfSpins.text = "Spins: "+Spins.ToString();
     }
 
     // Update is called once per frame
@@ -79,13 +82,17 @@ public class SpinWheel : MonoBehaviour
 
     public void Spin()
     {
-        if(Spins>=1)
+        if(Spins>=1 && rb.angularVelocity < 0.01f)
         {
             //spin the wheel with random force 2D
-            Wheel.GetComponent<Rigidbody2D>().AddTorque(Random.Range(1000, 2000));
+            Wheel.GetComponent<Rigidbody2D>().AddTorque(Random.Range(1000, 4000));
             Spins--;
+            numberOfSpins.text = "Spins: "+Spins.ToString();
         }
-        
-        
+    }
+
+    public void GetASpin()
+    {
+        Spins++;
     }
 }
