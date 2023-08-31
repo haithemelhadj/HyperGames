@@ -57,7 +57,7 @@ public class GoalManager : MonoBehaviour {
             Vector2 tempV = new Vector2(1000, 1000);
             //Create a new Goal Panel at the goalIntroParent position
             GameObject goal = Instantiate(goalPrefab, goalIntroParent.transform.position, Quaternion.identity);
-            goal.SetActive(false);// this line is temporary until the bug is fixed
+            goal.SetActive(false);// this Timerline is temporary until the bug is fixed
             goal.transform.SetParent(goalIntroParent.transform);
             //Set the image and text of the goal:
             GoalPanel panel = goal.GetComponent<GoalPanel>();
@@ -66,7 +66,7 @@ public class GoalManager : MonoBehaviour {
 
             //Create a new Goal Panel at the goalGameParent position
             GameObject gameGoal = Instantiate(goalPrefab, goalGameParent.transform.position, Quaternion.identity);
-            gameGoal.SetActive(false);// this line is temporary until the bug is fixed
+            gameGoal.SetActive(false);// this Timerline is temporary until the bug is fixed
             gameGoal.transform.SetParent(goalGameParent.transform);
             panel = gameGoal.GetComponent<GoalPanel>();
             currentGoals.Add(panel);

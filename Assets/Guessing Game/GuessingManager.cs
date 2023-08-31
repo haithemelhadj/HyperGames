@@ -19,7 +19,10 @@ public class GuessingManager : MonoBehaviour
     [Header("PLayer Stats")]
     public int score;
     public int scoreScaler;
-    public float timer;
+    private float timer;
+    public float initTimer;
+    public GameObject Timerline;
+    private Vector3 lineScale = new Vector3(0.4f, 0.3f, 0f);
     public int flips;
     [Header("PLayer Stats Text")]
 
@@ -92,12 +95,15 @@ public class GuessingManager : MonoBehaviour
 
     void Start()
     {
+        #region inistilasing
         TotalCards = Length * width;
+        timer = initTimer;
 
         float verticalOffset = tileSpacing;
         float horizontalOffset = tileSpacing;
 
         timerText.text = "Timer: " + timer.ToString();
+        #endregion
         //spawn cards depending on resolution and spacing
         //when spawinging put them all in one gameObject so that they can be put in gamemanager
         for (int i = 0; i < width; i++)
@@ -136,6 +142,9 @@ public class GuessingManager : MonoBehaviour
             {
                 timer -= Time.deltaTime;
                 timerText.text = "Timer: " + Mathf.Floor(timer).ToString();
+                //make a line that shortens over time  
+                //lineScale.x= ((((timer*100)/initTimer)*100f)/4);
+                //Timerline.transform.localScale = lineScale;
             }
             else
             {
