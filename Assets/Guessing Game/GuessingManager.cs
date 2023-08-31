@@ -44,7 +44,7 @@ public class GuessingManager : MonoBehaviour
     public int NumberOfSolvedCards;
     public int TotalCards;
     public float tileSpacing = 0.1f;
-    public float offset;
+    //public float offset;
 
     #endregion
 
@@ -120,7 +120,7 @@ public class GuessingManager : MonoBehaviour
             verticalOffset = tileSpacing;
             horizontalOffset += tileSpacing;
         }
-        Camera.main.transform.position = new Vector3((float)width / 2 - 0.5f, ((float)Length / 2 - 0.5f) + offset, -10f);
+        Camera.main.transform.position = new Vector3((float)width / 2 + ((float)horizontalOffset / 2) - 0.5f, ((float)Length / 2 + ((float)verticalOffset / 2) - 0.5f), -10f);
 
 
     }

@@ -1150,14 +1150,14 @@ MonoBehaviour:
   pauseButton: {fileID: 1745802804}
   score: 0
   scoreScaler: 20
-  initTimer: 5
+  initTimer: 300
   Timerline: {fileID: 631969812}
   flips: 0
   scoreText: {fileID: 1083911356}
   timerText: {fileID: 1083111927}
   flipsText: {fileID: 2116222009}
-  width: 4
-  Length: 6
+  width: 6
+  Length: 8
   cardsList:
   - {fileID: 7009242951413237720, guid: e97b7b81039f0394b8983f02ecea7a59, type: 3}
   - {fileID: 540853168931572216, guid: ce653f4232bbab44f82ac82071e353cf, type: 3}
@@ -1171,7 +1171,6 @@ MonoBehaviour:
   NumberOfSolvedCards: 0
   TotalCards: 0
   tileSpacing: 0.1
-  offset: 0
 --- !u!4 &323598811
 Transform:
   m_ObjectHideFlags: 0
