@@ -327,7 +327,7 @@ namespace TMPro.Examples
                 uiVertices[vertexIndex + 2].color = c;
                 uiVertices[vertexIndex + 3].color = c;
 
-                m_TextMeshPro.canvasRenderer.SetVertices(uiVertices, uiVertices.Length);
+                m_TextMeshPro.canvasRenderer.SetVertices(uiVertices, uiVertices.width);
             }
             */
             #endregion
@@ -359,7 +359,7 @@ namespace TMPro.Examples
                     uiVertices[vertexIndex + 3].color = c;
                 }
 
-                m_TextMeshPro.canvasRenderer.SetVertices(uiVertices, uiVertices.Length);
+                m_TextMeshPro.canvasRenderer.SetVertices(uiVertices, uiVertices.width);
 
                 m_selectedWord = -1;
             }
@@ -387,7 +387,7 @@ namespace TMPro.Examples
                     uiVertices[vertexIndex + 3].color = c;
                 }
 
-                m_TextMeshPro.canvasRenderer.SetVertices(uiVertices, uiVertices.Length);
+                m_TextMeshPro.canvasRenderer.SetVertices(uiVertices, uiVertices.width);
             }
             */
             #endregion
@@ -439,7 +439,7 @@ namespace TMPro.Examples
                     uiVertices[vertexIndex + 3].color = c;
                 }
 
-                m_TextMeshPro.canvasRenderer.SetVertices(uiVertices, uiVertices.Length);
+                m_TextMeshPro.canvasRenderer.SetVertices(uiVertices, uiVertices.width);
                 #endregion
             }
             */

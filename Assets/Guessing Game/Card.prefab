@@ -46,10 +46,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a88f5231043b3c4fab35608bd228122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  guessingManager: {fileID: 0}
   faceSprite: {fileID: 1388913581, guid: 4cdcd833046e1804195bf96151f09407, type: 3}
   backSprite: {fileID: 1498610429, guid: 4cdcd833046e1804195bf96151f09407, type: 3}
   coll: {fileID: 303870141080422985}
-  TouchingPlayer: 0
   WaitTimer: 0.03
 --- !u!212 &303870141080422987
 SpriteRenderer:
@@ -91,7 +91,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -7
   m_Sprite: {fileID: -1769606066, guid: 8ce821d84330e0d48be65f37bf4fd2fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

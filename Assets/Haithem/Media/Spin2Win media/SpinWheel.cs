@@ -17,7 +17,8 @@ public class SpinWheel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //numberOfColors = colors.Length;
+        
+        //numberOfColors = colors.width;
         numberOfSpins.text = "Spins: "+Spins.ToString();
     }
 
@@ -37,7 +38,7 @@ public class SpinWheel : MonoBehaviour
             {
                 rotation = Wheel.transform.localRotation.eulerAngles.z - 360f;
             }
-            //x = Mathf.RoundToInt(rotation / colors.Length);
+            //x = Mathf.RoundToInt(rotation / colors.width);
             if (rotation>=0 && rotation < 45)
             {
                 x = 0;
@@ -84,6 +85,7 @@ public class SpinWheel : MonoBehaviour
     {
         if(Spins>=1 && rb.angularVelocity < 0.01f)
         {
+            //Debug.Log("spin");
             //spin the wheel with random force 2D
             Wheel.GetComponent<Rigidbody2D>().AddTorque(Random.Range(1000, 4000));
             Spins--;
@@ -94,5 +96,6 @@ public class SpinWheel : MonoBehaviour
     public void GetASpin()
     {
         Spins++;
+        numberOfSpins.text = "Spins: " + Spins.ToString();
     }
 }

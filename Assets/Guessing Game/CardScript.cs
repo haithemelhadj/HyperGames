@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class CardScript : MonoBehaviour
 {
+    public GuessingManager guessingManager;
 
     public static List<CardScript> Cards = new List<CardScript>();//duplicate 
 
@@ -21,10 +24,15 @@ public class CardScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        guessingManager = FindObjectOfType<GuessingManager>();
         rend = GetComponent<SpriteRenderer>();
         rend.sprite = backSprite;
         coroutineAllowed = true;
         facedUp = false;
+        guessingManager.flipsText.text = "Flips: " + guessingManager.flips.ToString();
+        guessingManager.scoreText.text = "Score: " + guessingManager.score.ToString();
+        //Debug.Log("start");
+        
     }
     //-------------------------------------------------------
     public void RotateCardCoroutineCalled()
@@ -35,21 +43,28 @@ public class CardScript : MonoBehaviour
 
     public void Update()
     {
+        
+
+
         if (Input.touchCount > 0 || Input.touchCount == 1)
         {
             Touch touch = Input.GetTouch(0);
             //Vector2 touchPosition = (GameManager.MainCamera.ScreenToWorldPoint(touch.position));
             //ray cast on touch position to check if it hits the card
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint((Input.GetTouch(0).position)), Vector2.zero);
-            if (hit.collider != null)
+            if (guessingManager.gameState==GuessingManager.GameState.ongoing && hit.collider != null)
             {
+                //Debug.Log("hit");
                 if (hit.collider.gameObject == this.gameObject)
                 {
                     if (coroutineAllowed && Input.touchCount == 1 && Cards.Count < 2 && !facedUp)//receive input
                     {
                         StartCoroutine(RotateCard());
                         Cards.Add(this);
-                        GameManager.CheckCards();
+                        guessingManager.flips++;
+                        guessingManager.flipsText.text = "Flips: " + guessingManager.flips.ToString();
+                        //GameManager.CheckCards();
+
                         Debug.Log("count=" + Cards.Count);
                     }
                 }
@@ -99,13 +114,17 @@ public class CardScript : MonoBehaviour
             if (Cards[0].faceSprite.name == Cards[1].faceSprite.name) // check if the two cards have the same face sprite
             {
                 //9erd yawli ya3ml sound for 5secs w yzid fel speed
-                Cards[0].SetCollToInactive();//set the card collider to inactive from card script
+                //Cards[0].SetCollToInactive();//set the card collider to inactive from card script
                 Cards[0].gameObject.SetActive(false);
-                Cards[1].SetCollToInactive();
+                //Cards[1].SetCollToInactive();
                 Cards[1].gameObject.SetActive(false);
-                Debug.Log("cards are the same");
-                GameManager.NumberOfSolvedCards += 2;
+                Debug.Log("cards are the same");                
+                guessingManager.score += guessingManager.scoreScaler;
+                guessingManager.scoreText.text = "Score: " + guessingManager.score.ToString();
+                guessingManager.scoreScaler += 5;
+                guessingManager.NumberOfSolvedCards += 2;
 
+                
             }
             else if (Cards[0].faceSprite.name != Cards[1].faceSprite.name)//check if the two cards have different face sprites
             {
@@ -113,6 +132,7 @@ public class CardScript : MonoBehaviour
                 Cards[0].RotateCardCoroutineCalled();//rotate both cards if not the same
                 Cards[1].RotateCardCoroutineCalled();
                 Debug.Log("cards are not the same");
+                guessingManager.scoreScaler = guessingManager.scoreScaler==1 ? 1 : guessingManager.scoreScaler - 1;
 
             }
             else//print error if there is an error
