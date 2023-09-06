@@ -218,7 +218,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &52426606
 RectTransform:
   m_ObjectHideFlags: 0
@@ -345,6 +345,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0663277304db2a0408c6dbe5d82ee5f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreText: {fileID: 0}
+  Score: 0
 --- !u!1 &204845496
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,6 +777,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0663277304db2a0408c6dbe5d82ee5f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreText: {fileID: 0}
+  Score: 0
 --- !u!1 &398440360
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,6 +1419,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0663277304db2a0408c6dbe5d82ee5f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreText: {fileID: 0}
+  Score: 0
 --- !u!1 &606094923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1815,6 +1821,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0663277304db2a0408c6dbe5d82ee5f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreText: {fileID: 0}
+  Score: 0
 --- !u!1 &860884079
 GameObject:
   m_ObjectHideFlags: 0
@@ -2347,6 +2355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0663277304db2a0408c6dbe5d82ee5f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreText: {fileID: 0}
+  Score: 0
 --- !u!1 &1191321940
 GameObject:
   m_ObjectHideFlags: 0
@@ -2658,6 +2668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0663277304db2a0408c6dbe5d82ee5f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreText: {fileID: 0}
+  Score: 0
 --- !u!1 &1298909563
 GameObject:
   m_ObjectHideFlags: 0
@@ -3052,6 +3064,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0663277304db2a0408c6dbe5d82ee5f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreText: {fileID: 0}
+  Score: 0
 --- !u!1 &1337799142
 GameObject:
   m_ObjectHideFlags: 0
@@ -3702,6 +3716,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0663277304db2a0408c6dbe5d82ee5f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreText: {fileID: 0}
+  Score: 0
 --- !u!1 &1712606499
 GameObject:
   m_ObjectHideFlags: 0
@@ -3933,6 +3949,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0663277304db2a0408c6dbe5d82ee5f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreText: {fileID: 0}
+  Score: 0
 --- !u!1 &1751516015
 GameObject:
   m_ObjectHideFlags: 0
