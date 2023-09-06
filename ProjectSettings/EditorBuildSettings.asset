@@ -47,4 +47,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Profile.unity
     guid: adcc0cbbec0edb74eaea74e30efda450
+  - enabled: 1
+    path: Assets/Scenes/BueatyLevel.unity
+    guid: f239084461017a64b9435ac804a1eade
+  - enabled: 1
+    path: Assets/Scenes/FoodLevel.unity
+    guid: cb68cebb8f463594580f1a3dd5efe15d
   m_configObjects: {}

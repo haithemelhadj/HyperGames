@@ -900,7 +900,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -2
-  m_Sprite: {fileID: 1867918627, guid: 6d16d8818989e4646a507d7a2a6c67e3, type: 3}
+  m_Sprite: {fileID: 1122390459, guid: 044c538e33687504f80e904814b3ab05, type: 3}
   m_Color: {r: 0.7075472, g: 0.6574268, b: 0.62344253, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1955,7 +1955,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: CofeeCrash
+          m_StringArgument: GuessThe Dress
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1891759473
@@ -1978,7 +1978,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 68588786, guid: 56acacd3f863e064bbb4b163b8cddb67, type: 3}
+  m_Sprite: {fileID: 657933836, guid: 140ef13ce951c75488d7a4685428825f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

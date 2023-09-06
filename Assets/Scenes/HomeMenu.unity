@@ -1280,6 +1280,7 @@ GameObject:
   - component: {fileID: 605924661}
   - component: {fileID: 605924660}
   - component: {fileID: 605924659}
+  - component: {fileID: 605924662}
   m_Layer: 5
   m_Name: Food Games
   m_TagString: Untagged
@@ -1352,16 +1353,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2018100086}
-        m_TargetAssemblyTypeName: CanvasButtons, Assembly-CSharp
-        m_MethodName: NinjaFruit
-        m_Mode: 1
+      - m_Target: {fileID: 605924662}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: FoodLevel
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &605924660
@@ -1402,6 +1403,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 605924657}
   m_CullTransparentMesh: 1
+--- !u!114 &605924662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605924657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0663277304db2a0408c6dbe5d82ee5f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &606094923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1667,6 +1680,7 @@ GameObject:
   - component: {fileID: 855038398}
   - component: {fileID: 855038397}
   - component: {fileID: 855038396}
+  - component: {fileID: 855038399}
   m_Layer: 5
   m_Name: Beauty Games
   m_TagString: Untagged
@@ -1739,16 +1753,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2018100086}
-        m_TargetAssemblyTypeName: CanvasButtons, Assembly-CSharp
-        m_MethodName: beautyGame
-        m_Mode: 1
+      - m_Target: {fileID: 605924662}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: BueatyLevel
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &855038397
@@ -1789,6 +1803,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855038394}
   m_CullTransparentMesh: 1
+--- !u!114 &855038399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855038394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0663277304db2a0408c6dbe5d82ee5f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &860884079
 GameObject:
   m_ObjectHideFlags: 0
@@ -3772,6 +3798,7 @@ GameObject:
   - component: {fileID: 1715219345}
   - component: {fileID: 1715219344}
   - component: {fileID: 1715219343}
+  - component: {fileID: 1715219346}
   m_Layer: 5
   m_Name: Cofee Games
   m_TagString: Untagged
@@ -3844,16 +3871,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2018100086}
-        m_TargetAssemblyTypeName: CanvasButtons, Assembly-CSharp
-        m_MethodName: cofeeGame
-        m_Mode: 1
+      - m_Target: {fileID: 605924662}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: coffeelevels
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1715219344
@@ -3894,6 +3921,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1715219341}
   m_CullTransparentMesh: 1
+--- !u!114 &1715219346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715219341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0663277304db2a0408c6dbe5d82ee5f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1751516015
 GameObject:
   m_ObjectHideFlags: 0
