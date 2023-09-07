@@ -20,7 +20,7 @@ public class PointsManager : MonoBehaviour
     void Update()
     {
         //Debug.Log("prefs : " + PlayerPrefs.GetInt("UserPoints"));
-        Debug.Log("userP : " + UserPoints);
+        //Debug.Log("userP : " + UserPoints);
         ScoreText.text = "Points: " + UserPoints;
         //PlayerPrefs.SetInt("userPoints", PointsManager.UserPoints);
 
