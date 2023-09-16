@@ -24,22 +24,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Stack&Consume.unity
     guid: 07c70f041f837d34aac4e1c9a93dc48e
   - enabled: 1
-    path: Assets/Scenes/LeaderBoard.unity
-    guid: 775c682acdc15ce4b8ca232b034ccf8f
-  - enabled: 1
-    path: Assets/Scenes/Choosegift.unity
-    guid: c4812c016e9f9c04a9e8abf9dc91ebf8
-  - enabled: 1
     path: Assets/Scenes/Spin To Win.unity
     guid: 5e065e0dac1ed6f468be4b05feb32ae5
   - enabled: 1
     path: Assets/Scenes/coffeelevels.unity
     guid: 71b63863f27702144bdc562ed32814b1
   - enabled: 1
-    path: Assets/Scenes/coifflevels.unity
+    path: Assets/Scenes/Coifflevels.unity
     guid: b6319730998d2b34185e9154e05a63b6
   - enabled: 1
-    path: Assets/Scenes/Foodlevels.unity
+    path: Assets/Scenes/foodlevels.unity
     guid: 4626ee4de7ed6394eacbb567c634136a
   - enabled: 1
     path: Assets/Scenes/Notifications.unity
@@ -53,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FoodLevel.unity
     guid: cb68cebb8f463594580f1a3dd5efe15d
+  - enabled: 1
+    path: Assets/Scenes/LeaderBoard.unity
+    guid: fd873f87f6884a8429d46e9afbc66306
   m_configObjects: {}
