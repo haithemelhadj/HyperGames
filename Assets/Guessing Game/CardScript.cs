@@ -17,18 +17,21 @@ public class CardScript : MonoBehaviour
     public Sprite faceSprite, backSprite;
     [SerializeField] private Collider2D coll;
 
-    private bool coroutineAllowed, facedUp;
+    public bool canTouch;
+    public float showTimer = 2f;
+    public bool coroutineAllowed, facedUp;
     //[SerializeField] private bool TouchingPlayer = false;
     [SerializeField] private float WaitTimer;
 
     // Start is called before the first frame update
     void Start()
     {
+        canTouch = false;
         guessingManager = FindObjectOfType<GuessingManager>();
         rend = GetComponent<SpriteRenderer>();
-        rend.sprite = backSprite;
+        rend.sprite = faceSprite;
         coroutineAllowed = true;
-        facedUp = false;
+        facedUp = true;
         guessingManager.flipsText.text = "Flips: " + guessingManager.flips.ToString();
         guessingManager.scoreText.text = "Score: " + guessingManager.score.ToString();
         //Debug.Log("start");
@@ -41,35 +44,51 @@ public class CardScript : MonoBehaviour
     }
     //-------------------------------------------------------
 
+
     public void Update()
     {
+        if (showTimer > 0)
+        {
+            showTimer -= Time.deltaTime;
+        }
+        else if (!canTouch) 
+        {
+            StartCoroutine(RotateCard());
+            canTouch = true;
+            canTouch = true;
+        }
         
 
-
-        if (Input.touchCount > 0 || Input.touchCount == 1)
+        if(canTouch)
         {
-            Touch touch = Input.GetTouch(0);
-            //Vector2 touchPosition = (GameManager.MainCamera.ScreenToWorldPoint(touch.position));
-            //ray cast on touch position to check if it hits the card
-            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint((Input.GetTouch(0).position)), Vector2.zero);
-            if (guessingManager.gameState==GuessingManager.GameState.ongoing && hit.collider != null)
+            Debug.Log("hit1");
+            if (Input.touchCount > 0 || Input.touchCount == 1)
             {
-                //Debug.Log("hit");
-                if (hit.collider.gameObject == this.gameObject)
+                Debug.Log("hit2");
+                Touch touch = Input.GetTouch(0);
+                //Vector2 touchPosition = (GameManager.MainCamera.ScreenToWorldPoint(touch.position));
+                //ray cast on touch position to check if it hits the card
+                RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint((Input.GetTouch(0).position)), Vector2.zero);
+                if (guessingManager.gameState==GuessingManager.GameState.ongoing && hit.collider != null)
                 {
-                    if (coroutineAllowed && Input.touchCount == 1 && Cards.Count < 2 && !facedUp)//receive input
+                    Debug.Log("hit3");
+                    if (hit.collider.gameObject == this.gameObject)
                     {
-                        StartCoroutine(RotateCard());
-                        Cards.Add(this);
-                        guessingManager.flips++;
-                        guessingManager.flipsText.text = "Flips: " + guessingManager.flips.ToString();
-                        //GameManager.CheckCards();
+                        Debug.Log("hit4");
+                        if (coroutineAllowed && Input.touchCount == 1 && Cards.Count < 2 && !facedUp)//receive input
+                        {
+                            Debug.Log("hit5");
+                            StartCoroutine(RotateCard());
+                            Cards.Add(this);
+                            guessingManager.flips++;
+                            guessingManager.flipsText.text = "Flips: " + guessingManager.flips.ToString();
+                            //GameManager.CheckCards();
 
-                        Debug.Log("count=" + Cards.Count);
+                            Debug.Log("count=" + Cards.Count);
+                        }
                     }
                 }
             }
-
         }
     }
 
