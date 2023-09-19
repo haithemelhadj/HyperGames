@@ -12,19 +12,28 @@ public class SpinWheel : MonoBehaviour
     public string[] colors;
     public int x = -1;
     public float rotation;
-    public Text numberOfSpins;
+    bool alreadySpinned = false;
+    public GameObject Reward;
+    public GameObject spinWheelGroup;
+    //public Text numberOfSpins;
     
     // Start is called before the first frame update
     void Start()
     {
         
         //numberOfColors = colors.width;
-        numberOfSpins.text = "Spins: "+Spins.ToString();
+        //numberOfSpins.text = "Spins: "+Spins.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(rb.angularVelocity<0.001 && alreadySpinned)//check if the wheel is already spinned and check for reward result
+        {
+            Reward.SetActive(true);
+            alreadySpinned = false;
+            spinWheelGroup.SetActive(false);
+        }
         /*
         //Debug.Log(rb.angularVelocity);
         if(rb.angularVelocity<0.9f )// && rb.angularVelocity>0.01f)
@@ -83,19 +92,30 @@ public class SpinWheel : MonoBehaviour
 
     public void Spin()
     {
-        if(Spins>=1 && rb.angularVelocity < 0.01f)
+        if(Spins>=1 && rb.angularVelocity < 0.01f && !alreadySpinned)
         {
+
             //Debug.Log("spin");
             //spin the wheel with random force 2D
             Wheel.GetComponent<Rigidbody2D>().AddTorque(Random.Range(1000, 4000));
+            Invoke("ChangeBoolVal", 1f);
             Spins--;
-            numberOfSpins.text = "Spins: "+Spins.ToString();
+            //numberOfSpins.text = "Spins: "+Spins.ToString();
+        }else if( Spins<1)
+        {
+            spinWheelGroup.SetActive(false);
+
         }
+    }
+
+    private void ChangeBoolVal()
+    {
+        alreadySpinned = true;
     }
 
     public void GetASpin()
     {
         Spins++;
-        numberOfSpins.text = "Spins: " + Spins.ToString();
+        //numberOfSpins.text = "Spins: " + Spins.ToString();
     }
 }

@@ -8,7 +8,7 @@ public class SceneLoader : MonoBehaviour
     
     public int Score;
     public int addPoints = 10;
-    
+    public GameObject Object;
     public void LoadScene(string sceneName)
     {
         Debug.Log("Going to " + sceneName);
@@ -22,4 +22,19 @@ public class SceneLoader : MonoBehaviour
             //Debug.Log("playerprefs = "+PlayerPrefs.GetInt("userPoints"));
         }
     }
+
+    public void SetObjectInactive()
+    {
+        Debug.Log("inActive");
+        
+        Object.SetActive(false);
+    }
+
+    public void SetObjectActive()
+    {
+        Debug.Log("Active");
+        Object.SetActive(true);
+    }
+
+
 }
