@@ -10,7 +10,10 @@ public class AndroidNotificationsController : MonoBehaviour
     {
         RequestAuthorization();
         RegisterNotificationChannel();
-        SendNotification("Welcome", "Welcome to the game", 1);
+        if (Permission.HasUserAuthorizedPermission("android.permission.POST_NOTIFICATIONS"))
+        {
+            SendNotification("Welcome", "Welcome to the game", 1);
+        }
     }
 
     //ask for permission to send notifications in android phones after version 13
