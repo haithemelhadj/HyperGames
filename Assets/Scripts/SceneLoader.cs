@@ -13,6 +13,7 @@ public class SceneLoader : MonoBehaviour
     {
         Debug.Log("Going to " + sceneName);
         SceneManager.LoadScene(sceneName);
+        Time.timeScale = 1f;
         if ((sceneName == "GuessThe Dress" || sceneName == "CofeeCrash" || sceneName == "NujaFruit"))// && ScoreText != null) 
         {
             Debug.Log("adding points");

@@ -53,4 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Spin&Reward.unity
     guid: 943858f9129176a41ba5714722705405
+  - enabled: 1
+    path: Assets/Scenes/chooseagift.unity
+    guid: 9746a080af571e2469c467a977546a20
   m_configObjects: {}
